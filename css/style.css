@@ -1,10 +1,15 @@
 /* Extra small devices (phones, less than 768px) */
 /***** typography *****/
 h1,h2,h3,h4,h5 {
-  font-family: 'Gentium Book Basic',serif;
+  font-family: 'Spinnaker',sans-serif;
   font-weight: 700;
   color: #053B64;
 }
+
+.btn {
+  font-family: 'Spinnaker', sans-serif;
+}
+
 body {
   font-family: 'Raleway',Arial,sans-serif;
   background-image: url(../img/subtle_white_mini_waves/subtle_white_mini_waves.png);
@@ -13,13 +18,50 @@ body {
 }
 
 #header-img {
-  width: 70%;
+  width: 90%;
   height: auto;
+}
+
+.btn-spv {
+  color: #FFF;
+  background: #195887;
+  background: -webkit-linear-gradient(#0F75BC,#195887);
+  background: linear-gradient(#0F75BC,#195887);
+}
+
+.btn-spv:hover, .btn-spv:focus {
+  background: #4C8BBA;
+  color: #FFF;
+}
+
+.btn-donate {
+  font-size: 18px;
+  padding: 10px 40px;
+}
+
+.btn-register, .btn-psa {
+  font-size: 24px;
+}
+
+.btn-psa {
+  background-color: #EB5A4E;
+  box-shadow: 0 0.25em 0 0 #c15b5a,0 4px 9px rgba(0,0,0,0.75);
+  border: none;
+  color: #FFF;
+
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.btn-psa:hover, .btn-psa:focus {
+  background-color: #F1766B;
+  color: #FFF;
 }
 
 .navbar {
   border: none;
   margin-bottom: 0;
+  font-family: 'Spinnaker', sans-serif;
 }
 
 #navbar-container {
@@ -122,13 +164,13 @@ body {
   color: rgba(0,0,0,.45);
 }
 
+#footer-links-container h4, #footer-links-container ul {
+  margin: 0;
+}
+
 #footer-links-container ul {
   list-style-type: none;
   padding-left: 10px;
-}
-
-#footer-links-container ul>li {
-  margin-bottom: 7px;
 }
 
 #footer-links-container ul>li>a {
@@ -140,6 +182,20 @@ body {
 #footer-links-container ul>li>a:hover {
   color: #FFBF00;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.sm-links .fa {
+  margin-right: 40px;
+  color: #FFF;
+  opacity: 0.6;
+
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.sm-links .fa:hover {
+  opacity: 0.9;
   cursor: pointer;
 }
 

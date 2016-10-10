@@ -7,9 +7,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>St. Pius V Catholic Community</title>
 
+    <script src="https://use.fontawesome.com/f2bff9d3e4.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Spinnaker" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,15 +23,19 @@
     <div class="container">
       <div class="row"><!--
       --><div class="col-md-8 col-md-push-2 vcenter text-center">
-          <!--<h1 class="text-center">St. Pius V Catholic Community</h1>
-          <h3 class="text-center">7691 Orangethorpe Avenue, Buena Park, CA 90621</h3>-->
           <img id="header-img" src="img/spv-header.png" alt="spv-header">
         </div><!--
         --><div class="col-md-2 col-md-push-2 text-center vcenter">
-          <h4>(714)522-2193</h4>
+          <div class="input-group">
+            <input
+              type="text"
+              placeholder="Search Our Site..."
+              class="form-control"
+              aria-describedby="basic-addon1">
+          </div>
         </div><!--
         --><div class="col-md-2 col-md-pull-10 text-center vcenter">
-          <a href="#" class="btn btn-primary" role="button">Donate Here</a>
+          <a href="#" class="btn btn-primary btn-donate btn-spv" role="button">Online Giving</a>
         </div><!--
       --></div>
     </div>
@@ -157,8 +162,11 @@
       </div><!-- .row -->
     </div><!-- .container-fluid -->
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+      <div class="row"><!--
+      --><div class="col-md-2 vcenter text-center">
+          <a href="#" class="btn btn-register btn-spv" role="button">Parish<br>Registration</a>
+        </div><!--
+        --><div class="col-md-8 vcenter">
           <div
             id="home-carousel"
             class="carousel slide"
@@ -231,21 +239,35 @@
               <span class="sr-only">Next</span>
             </a>-->
           </div><!-- #home-carousel -->
-        </div><!-- .col-md-10.cold-md-offset-1 -->
+        </div><!-- .col-md-8 --><!--
+        --><div class="col-md-2 vcenter text-center">
+          <a href="#" class="btn btn-psa" role="button">PSA<br>Donations</a>
+        </div><!--.col-md-2-->
       </div><!-- .row -->
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-7">
           <div id="updates" class="home-info-box text-center">
             <h3>News & Updates</h3>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
           <div id="schedule" class="home-info-box">
-            <h3 class="text-center">Mass Schedule</h3>
+            <h3 class="text-center">Mass, Confession & Office Schedule</h3>
             <table class="table">
               <tr>
+                <td>Sunday Masses</td>
+                <td>
+                  7:45am, 9:15pm - Children's Mass, 10:45am, 12:15pm, 1:45pm en
+                  Espanol, 6:30pm
+                </td>
+              </tr>
+              <tr>
+                <td>Saturday Anticipatory Mass</td>
+                <td>5:15pm & 7:00pm en Espanol</td>
+              </tr>
+              <tr>
                 <td>Mondays</td>
-                <td>8:20am & 5:15pm</td>
+                <td>8:30am & 5:15pm</td>
               </tr>
               <tr>
                 <td>Tuesday-Friday</td>
@@ -256,15 +278,12 @@
                 <td>8:00AM</td>
               </tr>
               <tr>
-                <td>Saturday Anticipatory Mass</td>
-                <td>5:15pm & 7:00pm en Espanol</td>
+                <td>Confessions</td>
+                <td>Saturdays, Thursdays before First Fridays 3:30-4:40pm</td>
               </tr>
               <tr>
-                <td>Sunday Masses</td>
-                <td>
-                  7:45am, 9:15pm - Children's Mass, 10:45am, 12:15pm, 1:45pm en
-                  Espanol, 6:30pm
-                </td>
+                <td>Office Hours</td>
+                <td>Monday-Saturday 9:00am-8:30pm & Sunday 9:00am-3:00pm</td>
               </tr>
             </table>
           </div><!-- #schedule -->
@@ -275,52 +294,47 @@
       <div class="row">
         <footer>
           <div class="col-md-3">
-            <h4 class="text-center">Parish Services</h4>
+            <h4>Parish Services</h4>
             <ul>
               <li><a href="#">Mass Schedule</a></li>
               <li><a href="#">Funerals</a></li>
               <li><a href="#">OC Catholic Cemeteries</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
-          </div>
-          <div class="col-md-3">
-            <h4 class="text-center">Resources & Links</h4>
-            <div class="col-md-6">
-              <ul>
-                <li><a href="#">New American Bible</a></li>
-                <li><a href="#">La Biblia</a></li>
-                <li><a href="#">Daily Readings</a></li>
-                <li><a href="#">Evangelio del Dia</a></li>
-                <li><a href="#">Liturgy of the Hours</a></li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <ul>
-                <li><a href="#">Saint of the Day</a></li>
-                <li><a href="#">El Santo de Hoy</a></li>
-                <li><a href="#">USCCB: US Bishops</a></li>
-                <li><a href="#">Mental Health Awareness</a></li>
-                <li><a href="#"></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <h4 class="text-center">Our Diocese</h4>
+            <h4>Our Diocese</h4>
             <ul>
               <li><a href="#">Diocese of Orange</a></li>
               <li><a href="#">Orange County Catholic</a></li>
               <li><a href="#">Christ Cathedral</a></li>
             </ul>
-          </div>
-          <div class="col-md-3">
-            <h4 class="text-center">Other Helpful Links</h4>
+            <h4>Other Helpful Links</h4>
             <ul>
               <li><a href="#">Eucharistic Adoration</a></li>
               <li><a href="#">Catholic Marriage Resource</a></li>
             </ul>
           </div>
-          <div class="col-xs-12 text-center address-container">
-            <h3 id="address">7691 Orangethorpe Avenue, Buena Park, CA 90621</h3>
+          <div class="col-md-3">
+            <h4>Resources & Links</h4>
+            <ul>
+              <li><a href="#">New American Bible</a></li>
+              <li><a href="#">La Biblia</a></li>
+              <li><a href="#">Daily Readings</a></li>
+              <li><a href="#">Evangelio del Dia</a></li>
+              <li><a href="#">Liturgy of the Hours</a></li>
+              <li><a href="#">Saint of the Day</a></li>
+              <li><a href="#">El Santo de Hoy</a></li>
+              <li><a href="#">USCCB: US Bishops</a></li>
+              <li><a href="#">Mental Health Awareness</a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="sm-links">
+              <a href="#"><i class="fa fa-facebook-square fa-4x"></i></a>
+              <a href="#"><i class="fa fa-twitter-square fa-4x"></i></a>
+              <a href="#"><i class="fa fa-envelope-o fa-4x"></i></a>
+            </div>
+            <h3 id="address">7691 Orangethorpe Avenue<br>Buena Park, CA 90621</h3>
             <p>Copyright 2016 Saint Pius V Catholic Community.  All rights reserved.</p>
           </div>
         </footer>
