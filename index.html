@@ -22,19 +22,20 @@
   <body>
     <div class="container">
       <div class="row"><!--
-      --><div class="col-md-8 col-md-push-2 vcenter text-center">
+      --><div class="col-md-6 col-md-push-3 vcenter text-center header-container">
           <img id="header-img" src="img/spv-header.png" alt="spv-header">
         </div><!--
-        --><div class="col-md-2 col-md-push-2 text-center vcenter">
-          <div class="input-group">
+        --><div class="col-md-3 col-md-push-3 vcenter header-container">
+          <div class="input-group site-search-bar">
             <input
               type="text"
               placeholder="Search Our Site..."
               class="form-control"
               aria-describedby="basic-addon1">
           </div>
+          <button type="button" class="btn btn-default btn-sm">Search</button>
         </div><!--
-        --><div class="col-md-2 col-md-pull-10 text-center vcenter">
+        --><div class="col-md-3 col-md-pull-9 text-center vcenter header-container">
           <a href="#" class="btn btn-primary btn-donate btn-spv" role="button">Online Giving</a>
         </div><!--
       --></div>
@@ -67,60 +68,16 @@
                      role="button"
                      aria-haspopup="true"
                      aria-expanded="false">
-                     About <span class="caret"></span>
-                   </a>
-                   <ul class="dropdown-menu">
-                     <li><a href="#">Masses & Confessions</a></li>
-                     <li><a href="#">Directions</a></li>
-                     <li><a href="#">Parish Registration</a></li>
-                     <li><a href="#">Parish Staff</a></li>
-                     <li><a href="#">Weekly Bulletin</a></li>
-                   </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#"
-                     class="dropdown-toggle"
-                     data-toggle="dropdown"
-                     role="button"
-                     aria-haspopup="true"
-                     aria-expanded="false">
                      Liturgy <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
-                     <li><strong>Lectors</strong></li>
-                     <li><a href="#">New Lector Info and Agreement</a></li>
-                     <li><a href="#">Lector Application</a></li>
-                     <li><a href="#">Diocese of Orange Lector Guidelines</a></li>
-                     <li><a href="#">Biblical Pronounciation Guide</a></li>
-                     <li role="separator" class="divider"></li>
-                     <li><strong>Extraordinary Ministers of Holy Communion (EMHC)</strong></li>
-                     <li><a href="#">EMHC Information and Agreement</a></li>
-                     <li><a href="#">St. Pius V EMHS Guidelines</a></li>
-                     <li><a href="#">EMHC Application</a></li>
-                     <li role="separator" class="divider"></li>
-                     <li><strong>Altar Servers</strong></li>
-                     <li><a href="#">Altar Server Information and Agreement</a></li>
+                     <li><strong>Liturgical Ministries</strong></li>
+                     <li><a href="#">Altar Servers</a></li>
+                     <li><a href="#">Extraordinary Ministers of Holy Communion</a></li>
+                     <li><a href="#">Lectors</a></li>
+                     <li><a href="#">Ushers</a></li>
+                     <li><a class="dropdown-header" href="#"><strong>Funeral Litergies</strong></a></li>
                   </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#"
-                     class="dropdown-toggle"
-                     data-toggle="dropdown"
-                     role="button"
-                     aria-haspopup="true"
-                     aria-expanded="false">
-                     Faith Formation <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Baptism</a></li>
-                    <li><a href="#">RCIA for Adults</a></li>
-                    <li><a href="#">Faith Formation</a></li>
-                    <li><a href="#">Faith Formation Registration - English</a></li>
-                    <li><a href="#">Registro del Catecismo - Espanol</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Youth</a>
                 </li>
                 <li class="dropdown">
                   <a href="#"
@@ -132,9 +89,30 @@
                      Sacraments <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
+                     <li><a href="#">Baptism</a></li>
+                     <li><a href="#">Reconciliation</a></li>
+                     <li><a href="#">Eucharist</a></li>
+                     <li><a href="#">Confirmation</a></li>
+                     <li><a href="#">Marriage</a></li>
+                     <li><a href="#">Holy Orders</a></li>
+                     <li><a href="#">Annointing of the Sick</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#"
+                     class="dropdown-toggle"
+                     data-toggle="dropdown"
+                     role="button"
+                     aria-haspopup="true"
+                     aria-expanded="false">
+                     School <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><strong>Faith Formation</strong></li>
                     <li><a href="#">Baptism</a></li>
-                    <li><a href="#">RCIA for Adults</a></li>
-                    <li><a href="#">Faith Formation</a></li>
+                    <li><a href="#">RCIA for Aduts (Adult Sacrament Preparation)</a></li>
+                    <li><a href="#">Faith Formation (Youth Sacrament Preparation)</a></li>
+                    <li><a class="dropdown-header" href="#"><strong>Parish School</strong></a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -146,14 +124,33 @@
                      aria-expanded="false">
                      Ministries <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu list-item-wrap">
-                    <li><strong>Liturgical Ministry Calendars</strong></li>
-                    <li><a href="#">Extraordinary Minstors of Holy Communion & Lectors</a></li>
-                    <li><a href="#">Altar Server's Schedule</a></li>
+                  <ul class="dropdown-menu">
+                    <li><strong>Liturgical Ministries</strong></li>
+                    <li><a href="#">Lectors</a></li>
+                    <li><a href="#">EMHC</a></li>
+                    <li><a href="#">Altar Servers</a></li>
+                    <li><a class="dropdown-header" href="#"><strong>Music</strong></a></li>
+                    <li><a class="dropdown-header" href="#"><strong>Youth</strong></a></li>
+                    <li><a class="dropdown-header" href="#"><strong>Adoration</strong></a></li>
                   </ul>
                 </li>
-                <li class="nav-last">
-                  <a href="#">Parish School</a>
+                <li class="dropdown nav-last">
+                  <a href="#"
+                     class="dropdown-toggle"
+                     data-toggle="dropdown"
+                     role="button"
+                     aria-haspopup="true"
+                     aria-expanded="false">
+                     About <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Mission Statement</a></li>
+                    <li><a href="#">Mass & Confessions</a></li>
+                    <li><a href="#">Office Hours</a></li>
+                    <li><a href="#">Bulletin</a></li>
+                    <li><a href="#">Parish Registration</a></li>
+                    <li><a href="#">Parish Staff</a></li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -163,10 +160,7 @@
     </div><!-- .container-fluid -->
     <div class="container-fluid">
       <div class="row"><!--
-      --><div class="col-md-2 vcenter text-center">
-          <a href="#" class="btn btn-register btn-spv" role="button">Parish<br>Registration</a>
-        </div><!--
-        --><div class="col-md-8 vcenter">
+      --><div class="col-md-8 col-md-push-2 vcenter">
           <div
             id="home-carousel"
             class="carousel slide"
@@ -183,37 +177,6 @@
             <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <img src="img/SPV_bl.jpg" alt="St. Pius V Catholic Community">
-              </div>
-              <div class="item">
-                <div class="mission-statement-container">
-                  <h4 class="text-center">Mission Statement</h4>
-                  <p>
-                    <em>
-                      St. Pius V is a Roman Catholic faith community
-                      following the teachings of Jesus Christ.  As a united
-                      parish, we celebrate and evangelize our many cultural
-                      traditions through liturgy, prayer and service.  Empowered
-                      and challenged by the Holy Spirit, we welcome all in
-                      fellowship by sharing our gifts and reflecting God’s love.
-                    </em>
-                  </p>
-                </div>
-              </div>
-              <div class="item">
-                <div class="mission-statement-container">
-                  <h4 class="text-center">Declaracion de la Mision</h4>
-                  <p>
-                    <em>
-                      San Pio V es una comunidad de fe Católica que sigue las
-                      enseñanzas de Jesucristo.  Como una parroquia unida,
-                      nosotros evangelizamos y celebramos nuestras tradiciones
-                      culturales a través de la liturgia, oración y servicio.
-                      Fortalecidos y motivados por el Espíritu Santo les damos
-                      la bienvenida a todos como hermanos, compartiendo nuestros
-                      dones y reflejando el amor de Dios.
-                    </em>
-                  </p>
-                </div>
               </div>
               <div class="item">
                 <img src="img/Fr_Avelino.jpg" alt="Welcome Father Avelino">
@@ -240,18 +203,21 @@
             </a>-->
           </div><!-- #home-carousel -->
         </div><!-- .col-md-8 --><!--
-        --><div class="col-md-2 vcenter text-center">
+        --><div class="col-md-2 col-md-pull-8 col-xs-6 vcenter text-center">
+            <a href="#" class="btn btn-register btn-spv" role="button">Parish<br>Registration</a>
+          </div><!--
+        --><div class="col-md-2 col-xs-6 vcenter text-center">
           <a href="#" class="btn btn-psa" role="button">PSA<br>Donations</a>
         </div><!--.col-md-2-->
       </div><!-- .row -->
       <div class="row">
         <div class="col-md-7">
-          <div id="updates" class="home-info-box text-center">
+          <div id="updates" class="home-info-box main-content text-center">
             <h3>News & Updates</h3>
           </div>
         </div>
         <div class="col-md-5">
-          <div id="schedule" class="home-info-box">
+          <div id="schedule" class="home-info-box main-content">
             <h3 class="text-center">Mass, Confession & Office Schedule</h3>
             <table class="table">
               <tr>
@@ -293,7 +259,7 @@
     <div class="container-fluid" id="footer-links-container">
       <div class="row">
         <footer>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <h4>Parish Services</h4>
             <ul>
               <li><a href="#">Mass Schedule</a></li>
@@ -313,7 +279,7 @@
               <li><a href="#">Catholic Marriage Resource</a></li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <h4>Resources & Links</h4>
             <ul>
               <li><a href="#">New American Bible</a></li>
@@ -328,17 +294,21 @@
               <li><a href="#"></a></li>
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="sm-links">
-              <a href="#"><i class="fa fa-facebook-square fa-4x"></i></a>
-              <a href="#"><i class="fa fa-twitter-square fa-4x"></i></a>
-              <a href="#"><i class="fa fa-envelope-o fa-4x"></i></a>
+              <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+              <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+              <a href="#"><i class="fa fa-envelope-o fa-3x"></i></a>
             </div>
             <h3 id="address">7691 Orangethorpe Avenue<br>Buena Park, CA 90621</h3>
-            <p>Copyright 2016 Saint Pius V Catholic Community.  All rights reserved.</p>
           </div>
         </footer>
       </div><!-- .row -->
+      <div class="row">
+        <div class="col-md-6 col-md-offset-6 text-right">
+          <p>Copyright 2016 Saint Pius V Catholic Community.  All rights reserved.</p>
+        </div>
+      </div>
     </div><!-- #footer-links-container -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
